@@ -7,7 +7,7 @@ Java console application focusing on using multiple design patterns.
 ## **Design patterns used:**
 ## *Bridge*  
 - Between devices and their remotes.
-- The Remote class is the abstraction and the classes TV and Radio implementing the Device interface are the implementations.
+- The Remote class is the abstraction part and the classes TV and Radio implementing the Device interface are the implementation part of this pattern.
 - The remote being the abstraction object delegates the work to the acual devices.
 - The remotes work with the devices via the same Device interface so the same remote can support multiple devices.
 
